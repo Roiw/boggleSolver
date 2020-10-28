@@ -17,3 +17,11 @@ Another great optimization is using a StringBuilder instead of string to keep tr
 - Traverse the Trie together with the DFS, using the Trie to prune invalid paths.
 - Use a StringBuilder for fast character concatenation.
 - Complexity is O(N * L) where N is the number of cells on the board and L is the length of the biggest word on the dictionary.  
+
+## Running the project
+
+In order to run the project:
+- dotnet new console
+- dotnet run
+
+This will run the test cases defined on unitTestsBoggle
