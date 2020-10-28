@@ -1,6 +1,6 @@
 # A Fast Boggle Solver
 
-In order to solve the Boggle board, we must search for all possible words we can form starting at each cell of the board. From a cell we have 8 possible directions to go, each direction will provide us with a character.
+In order to solve a [Boggle Board](https://en.wikipedia.org/wiki/Boggle), we must search for all possible words we can form starting at each cell of the board. From a cell we have 8 possible directions to go, each direction will provide us with a character.
 Every time we add a character to the word we are building, we must check if this word exists in the dictionary provided, if so we found a word. We will check every possible path starting from each cell of the board. The search algorithm we will use for this is a depth first search (DFS).
 
 ## Optimizing
